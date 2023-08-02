@@ -17,7 +17,7 @@ header {
     border-bottom: 1px solid #e0e0e0;
 }
 
-.wrapper {
+.navbuttons {
     height: 30px;
     width: 180px;
     padding-left: 2.75px;
@@ -44,9 +44,9 @@ header {
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 4px;
+    border-radius: 1px;
     opacity: 0;
-    transition: 300ms;
+    transition: 100ms;
 }
 
 .close-btn {
