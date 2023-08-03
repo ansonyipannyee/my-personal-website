@@ -17,13 +17,32 @@ header {
     border-bottom: 1px solid #e0e0e0;
 }
 
-.navbuttons {
+.navbar-container {
     height: 30px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.navbar-container input[type=text] {
+    margin-top: 2.5px;
+    padding: 5px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background-color: #f2f2f1;
+    font-size: 11px;
+    position: absolute;
+    right: 10px;
+}
+
+
+.navbuttons {
+    height: 100%;
     width: 180px;
     padding-left: 2.75px;
     padding-right: 2.75px;
-    display: flex;
     justify-content: left;
+    display: flex;
     align-items: center;
     border-right: 1px solid #e0e0e0;
 }
@@ -99,6 +118,10 @@ header {
     opacity: 1;
 }
 
+.left-nav {
+    margin-left: 20px;
+}
+
 .sidebar-container {
     height: 100%
 }
@@ -164,6 +187,6 @@ ul li {
     font-size: 20px;
 }
 
-.main p {
-    font-size: 14px;
+.main h3 {
+    font-weight: 200;
 }
