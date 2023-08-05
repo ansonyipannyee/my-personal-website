@@ -1,67 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="./style.css">
-        <title>Ann's Notes</title>
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Ann's Notes</title>
+  </head>
 
-    <body>
-        <header>
-        <div class="navbar-container">
-            <div class="navbuttons">
-                <div class="btn close-btn"></div>
-                <div class="btn min-btn"></div>
-                <div class="btn max-btn"></div>
-                <span class="left-nav"><img src="./navbar-img/navbarleft.png"></span>
-            </div>
-            <div><input type="text" placeholder="Search"></div>
+  <body>
+    <header>
+      <div class="wrapper">
+        <div class="window-buttons">
+          <div class="button close"></div>
+          <div class="button minimize"></div>
+          <div class="button maximize"></div>
         </div>
-        </header>
-       
+      </div>
+    </header>
 
-        <div class="sidebar-container">
-            <div class="sidebar">
-                <ul class="list">
-                    <li class="item">
-                        <a href="./index.html">
-                            <button class="sidebar-btn">Welcome<br>
-                            <p class="day">Just Now</p></button>
-                        </a>
-                    </li>
-                    <li class="item">
-                        <a href="./about-me.html">
-                            <button class="sidebar-btn">About Me!<br>
-                            <p class="day">Yesterday</p></button>
-                        </a>
-                    </li>
-                    <li class="item">
-                        <a href="./education.html">
-                            <button class="sidebar-btn">Education Background<br>
-                            <p class="day">Just Now</p></button>
-                        </a>
-                    </li>
-                    <li class="item">
-                        <a href="./work.html">
-                            <button class="sidebar-btn">Work Experience<br>
-                            <p class="day">26/07/2023</p></button>
-                        </a>
-                    </li>
-                    <li class="item">
-                        <a href="./contact.html">
-                            <button class="sidebar-btn">Contact Information<br>
-                            <p class="day">25/07/2023</p></button>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            </div>
-    
-        <div class="main">
-            <h1>Welcome To My Notes!</h1>
-            <p>This is a summary of the content that I will include in my actual portfolio. Stay tuned. </p>
-        </div>
-    </body>
+    <div class="sidebar">
+      <nav>
+        <ul class="list">
+          <li class="item">
+            <a href="./index.html">
+              <button class="sidebar-btn">
+                About Me!<br />
+                <p class="day">Just Now</p>
+              </button>
+            </a>
+          </li>
+          <li class="item">
+            <a href="./edu.html">
+              <button class="sidebar-btn">
+                Background<br />
+                <p class="day">Yesterday</p>
+              </button>
+            </a>
+          </li>
+          <li class="item">
+            <a href="./work.html">
+              <button class="sidebar-btn">
+                Work Experience<br />
+                <p class="day">26/07/2023</p>
+              </button>
+            </a>
+          </li>
+          <li class="item">
+            <a href="./contact.html">
+              <button class="sidebar-btn">
+                Contact Information<br />
+                <p class="day">25/07/2023</p>
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
-
+    <div class="main-wrapper">
+      <div class="about-me">
+        <h1>1.0 About Me!</h1>
+        <h2>Hello, my name is Ann.</h2>
+        <h3>
+          Welcome to my first webpage. As you might be able to tell, this page
+          deeply references the Notes app by Apple. <br />
+          Much like Apple's design principles, I too strive to build
+          minimalistic interfaces that facilitate effortless user interactions.
+          Feel free to navigate through my webpage using the side bar.
+        </h3>
+      </div>
+    </div>
+  </body>
+</html>
