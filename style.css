@@ -13,8 +13,33 @@ body > header {
     top: 0;
     left: 0;
     background-color: #f2f2f1;
-    display: block;
+    display: flex;
     border-bottom: 1px solid #e0e0e0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-note {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+header input[type=text] {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    background-color: #f2f2f1;
+    font-size: 12px;
 }
 
 body > .sidebar {
@@ -24,7 +49,9 @@ body > .sidebar {
     width: 200px;
     height: 100%;
     padding-right: 1rem;
+    background-color: #FFFFFF;
     border-right: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
 }
 
 .list {
@@ -67,15 +94,16 @@ body > .sidebar {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 217px;
+    float: left;
+    align-items: center;
 }
 
 .window-buttons {
-    display: flex;
-    align-items: center;
     height: auto;
+    display: flex;
     padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 7.5px;
+    padding-bottom: 10px;
     border-right: 1px solid #dcdcdc;
 }
 
@@ -153,11 +181,69 @@ body > .sidebar {
 .main-wrapper {
     margin-top: 70px;
     margin-left: 250px;
-    margin-right: 10px;
-}
-
-.main-wrapper h2, h3 {
-    font-weight: 100;
+    margin-right: 40px;
     letter-spacing: 1.5px;
 }
+
+h2 {
+    font-weight: 300;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.second-section {
+    margin-top: 50px;
+    text-align: right;
+}
+
+.edu-history {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu-history ul li {
+    list-style: none;
+}
+
+.school {
+    margin-bottom: 0;
+}
+
+.year {
+    margin: 0;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+}
+
+.fill {
+    height: 100%;
+    border-radius: 5px;
+    background-color: #FFBB39;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contact-icons img {
+    margin: 30px;
+    background-color: none;
+}
+
+
 
